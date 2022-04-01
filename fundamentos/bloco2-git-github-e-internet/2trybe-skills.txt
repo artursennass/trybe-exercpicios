@@ -1,0 +1,9 @@
+O que vou aprender na Trybe:
+
+ - Unix
+ - Bsah
+ - Git
+ - HTML
+ - CSS
+ - JavaScript
+ - SoftSkills
