@@ -1,0 +1,18 @@
+#titulo1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+}
+#listas {
+    background-color: gray;
+}
+.texto-corrido {
+    background-color: bisque;
+}
+p {
+    font-weight: 600px;
+    font-size: 3em;
+}
+body {
+    font-size: 16px;
+}
