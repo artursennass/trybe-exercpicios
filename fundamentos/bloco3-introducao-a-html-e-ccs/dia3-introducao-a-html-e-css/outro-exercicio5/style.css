@@ -1,0 +1,40 @@
+ol {
+    background-color: yellow;
+}
+ol li:nth-child(even) {
+    color: green
+}
+/* Nao sei pq nao consigo pegar os impares */
+/* ol li:nth-last-child(2n+1) {
+    text-transform: capitalize;
+    text-decoration: dashed;
+} */
+
+h1, h3 {
+    color: red;
+}
+
+h1 em {
+    size: 40px;
+    border: 1px solid black;
+}
+
+li {
+    size: 20px;
+}
+
+li em {
+    font-weight: bold;
+}
+
+ul.linguagens li:nth-last-child(3), ul.linguagens li:nth-last-child(4), ul.linguagens li:nth-last-child(5){
+    color: blue;
+}
+
+ul.linguagens li:nth-last-child(3), ul.linguagens li:nth-last-child(4) {
+    background-color: pink;
+}
+
+ul.aliados li:hover {
+    font-weight: bold;
+}
