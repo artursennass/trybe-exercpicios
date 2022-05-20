@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main id="paiDoPai">
+        <section id="pai">
+          <section id="primeiroFilho"></section>
+          <section id="elementoOndeVoceEsta">
+            <section id="primeiroFilhoDoFilho"></section>
+            <section id="segundoEUltimoFilhoDoFilho"></section>
+          </section>
+          Atenção!
+          <section id="terceiroFilho"></section>
+          <section id="quartoEUltimoFilho"></section>
+        </section>
+      </main>
+      <script>
+        let whereIAm = document.querySelector('#elementoOndeVoceEsta');
+
+        console.log(whereIAm);
+
+        let fatherWhereIAm = whereIAm.parentElement;
+
+        fatherWhereIAm.style.color = 'red';
+
+        let sonOfASonWhereIAm = whereIAm.children;
+
+        sonOfASonWhereIAm[0].innerHTML = 'texto a ele'
+
+        let father = document.getElementById('pai');
+
+        console.log(father);
+
+        console.log(father.firstElementChild);
+
+        console.log(whereIAm.previousElementSibling);
+
+        console.log(whereIAm.nextSibling);
+
+        console.log(whereIAm.nextElementSibling);
+
+        let fathersChildren = father.children
+
+        console.log(fathersChildren[2]);
+
+        document.createElement('p');
+
+        let newSibling = document.createElement('p');
+
+        newSibling.innerText = "Será que funciona?"
+
+        father.appendChild(newSibling);
+
+        let newSon = document.createElement('Li');
+
+        newSon.innerText = 'item qualquer.'
+
+        whereIAm.appendChild(newSon);
+
+        let grandson =  document.createElement('p');
+
+        grandson.innerText = 'sou neto de ondeEstou';
+        grandson.className = 'neto-do-filho';
+
+        sonOfASonWhereIAm[0].appendChild(grandson);
+
+        let findGrandson = document.getElementsByClassName('neto-do-filho');
+
+        console.log(findGrandson[0]);
+
+        console.log(findGrandson[0].parentElement.parentElement.nextElementSibling);
+        
+        let fatherOfFather = document.querySelector('#paiDoPai');
+
+        let allChildren = fatherOfFather.children;
+
+        console.log(allChildren);
+
+        // console.log(father.children);
+
+        // for (let i = 0; i < allChildren.length; i +=1) {
+        //   if (allChildren[i] == )
+        // }
+      </script>
+</body>
+</html>
