@@ -29,3 +29,12 @@ header h1 {
     padding: 5px 20px;
     
 }
+
+textarea {
+    width: 100%;
+    resize: none;
+}
+
+#hidden {
+    display: off;
+}

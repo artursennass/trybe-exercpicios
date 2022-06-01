@@ -31,7 +31,13 @@
                 <br>
                 <label for="answer">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</label>
                 <br>
-                <textarea name="answer" id="answer" cols="30" rows="10">Escreva aqui sua resposta!</textarea>
+                <textarea name="answer" id="answer" cols="30" rows="10" placeholder="Eu mereço esse prêmio porque . . ."></textarea>
+                <br>
+                <input type="checkbox" name="image-agrement" id="image-agrement">
+                <label for="image-agrement">Autorizo o uso da minha imagem.</label>
+                <br>
+                <div id="hidden">
+                </div>
                 <br>
                 <label for="best-date">Qual a melhor data para realizar sua viagem? </label>
                 <input type="date" name="best-date" id="best-date" class="default-input">
@@ -44,7 +50,7 @@
                 </div>
             <div id="buttons">
                 <button type="submit" name="send" class="button" id="send-button">Enviar</button>
-                <button type="reset" name="reset" class="button">Apagar</button>
+                <button type="reset" name="reset" class="button" id="delete-content">Apagar</button>
             </div>
         </form>
     </main>
