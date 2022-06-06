@@ -1,0 +1,19 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+@media screen and (max-width: 460px) {
+
+  }
+
+@media screen and (min-width: 460) and (max-width: px) {
+      
+}
+
+@media screen and (max-width: 768px) {
+    
+}
