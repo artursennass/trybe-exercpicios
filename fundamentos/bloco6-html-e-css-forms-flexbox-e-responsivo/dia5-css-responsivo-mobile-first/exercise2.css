@@ -7,13 +7,62 @@ html {
   }
 
 @media screen and (max-width: 460px) {
+    body {
+        background-color: antiquewhite;
+        font-size: medium;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+    }
 
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    aside {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
   }
 
-@media screen and (min-width: 460) and (max-width: px) {
+@media screen and (min-width: 460) and (max-width: 768px) {
       
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     
 }
