@@ -106,6 +106,12 @@
 
 // console.log(dividido)
 
+// refatorando:
+let dividido = [];
+for (index = 1; index <= 25; index += 1) {
+    dividido.push(index / 2);
+}
+console.log(dividido)
 
 // bônus
 
