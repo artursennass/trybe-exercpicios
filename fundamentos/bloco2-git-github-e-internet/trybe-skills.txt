@@ -3,3 +3,9 @@ O que vou aprender na Trybe:
  - Unix
  - Bsah
  - Git
+ - Front-end
+ - Back-end
+ - Pyton
+ - Front-en
+ - Back-end
+ - Pyton
